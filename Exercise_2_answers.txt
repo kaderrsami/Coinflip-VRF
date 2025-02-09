@@ -1,0 +1,43 @@
+**Exercise 2 - MakerDAO 2.0 Tokenomics**
+
+**Part A - Meta assessment of DeFi projects through aggregators (3 points)**
+
+MakerDAO remains the poster child for collateralized debt positions (CDPs) in DeFi, and if you’ve ever wondered how a protocol that once weathered Black Thursday still holds its own, look no further than the numbers on DeFiLlama and Dune Analytics. On DeFiLlama’s proprietary dashboard, you can explore the “DeFi/Category/CDP” section, where Maker (now rebranded as Sky) competes head-to-head with other CDP platforms such as Liquity and Reflexer (RAI). These protocols focus on overcollateralized debt issuance and decentralized stablecoins, whereas projects like Curve Finance, Ramp, or Davos operate in different niches—such as stablecoin trading or fiat onramp services—and do not directly compete in the CDP space.
+
+Dune Analytics, with its highly customizable SQL-based dashboards, offers a complementary perspective. Custom dashboards show daily liquidation volumes and collateral ratios—two key metrics discussed in lecture 5. The first metric—TVL (Total Value Locked)—tells us how much crypto is secured in Maker’s vaults, reflecting user trust and overall market engagement. The second metric—the liquidation count—reveals how frequently Maker’s safety mechanisms activate to protect the system, offering insight into the protocol’s risk profile. A well-designed Dune dashboard even breaks down liquidation trends over time, illustrating that while the system experienced severe stress during Black Thursday, recent risk adjustments and protocol upgrades have helped stabilize the CDP market.
+
+Graphs from both aggregators illustrate these points vividly. One graph from DeFiLlama shows Maker’s dominant share in the CDP category compared to Liquity and Reflexer, while another from Dune Analytics plots the evolution of daily liquidations over recent months. These visualizations confirm that Maker’s improvements—including the transition to Multi-Collateral DAI, enhanced surplus buffers, and refined liquidation mechanics—have bolstered system safety and maintained its competitive edge.
+
+---
+
+**Part B - Examining MKR tokenomics (3 points)**
+
+Since the infamous Black Thursday, the MKR token’s journey has been nothing short of a roller coaster. During that crisis, the protocol minted additional MKR to cover undercollateralized positions, diluting existing token value. In response, MakerDAO reworked its mechanics: the surplus buffer was increased and a deflationary mechanism was introduced by burning MKR collected from stability fees and surplus auction proceeds. These changes have helped stabilize MKR’s market price—today it trades at robust levels, signaling renewed investor confidence.
+
+Before Black Thursday, MKR primarily provided basic governance rights with relatively static voting power, and its issuance during liquidations contributed to dilution. After Black Thursday—with the evolution into MakerDAO 2.0 (Sky)—the tokenomics were reimagined to support a more sustainable ecosystem. The updated system emphasizes a deflationary model, where MKR burns help reduce the overall supply, and governance mechanisms have been enhanced to allow token holders to actively influence risk parameters and protocol upgrades. Importantly, as part of the “Endgame” upgrade, MKR holders can now opt to swap their legacy MKR tokens for the new SKY governance tokens according to a predetermined exchange ratio, ensuring a smooth transition without resorting to token “wrapping.”
+
+**Governance**:  
+Before Black Thursday: Basic voting rights with static influence.  
+After Black Thursday (MakerDAO 2.0 / Sky): Enhanced, dynamic governance enabling active risk management.
+
+**Token Issuance/Burn**:  
+Before Black Thursday: Additional MKR minted during liquidations, leading to dilution.  
+After Black Thursday (MakerDAO 2.0 / Sky): Deflationary model through systematic MKR burns from fees and auctions.
+
+**Incentives**:  
+Before Black Thursday: Limited rewards beyond governance.  
+After Black Thursday (MakerDAO 2.0 / Sky): Improved incentive structures for long-term participation.
+
+**System Role**:  
+Before Black Thursday: Backstop for covering system shortfalls.  
+After Black Thursday (MakerDAO 2.0 / Sky): Central tool in maintaining protocol stability and risk control.
+
+These adjustments have cushioned MKR from extreme dilution during crises and aligned its utility with the protocol’s long-term vision.
+
+---
+
+**Part C - Personal reflection on the current and future state of MakerDAO (2 points)**
+
+MakerDAO’s transformation into MakerDAO 2.0 (or, as the community now calls it, Sky) is both a tale of resilience and a lesson in strategic adaptation. Personally, I find the shift inspiring—here is a protocol that not only survived its darkest hour (Black Thursday) but also re-engineered itself for a more sustainable future. The rebranding to Sky isn’t merely cosmetic; it represents a comprehensive upgrade that includes revamped tokenomics, a transition to Multi-Collateral DAI, and an improved governance framework. With the introduction of a swap mechanism, MKR holders now have the opportunity to exchange their legacy tokens for new SKY tokens at a predetermined ratio, enhancing token utility while enforcing deflationary measures.
+
+Looking ahead, while the broader blockchain industry is exploring advanced technologies such as AI for risk management and quantum-resistant protocols for enhanced security, there are currently no confirmed plans or official statements from MakerDAO (Sky) regarding the integration of these technologies. MakerDAO’s focus remains on solidifying its core functionalities—stability, robust risk management, and user incentives (including native rewards via the Seal Engine)—rather than on speculative future tech. This measured approach ensures that while the protocol remains open to innovation, its immediate strategy is grounded in proven improvements and community-driven governance. In essence, MakerDAO (Sky) exemplifies how learning from past challenges can lead to a more resilient and adaptive financial infrastructure, setting a strong foundation for future developments in decentralized finance.
